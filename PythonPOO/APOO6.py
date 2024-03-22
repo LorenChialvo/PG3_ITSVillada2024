@@ -8,7 +8,7 @@ class family():
         self.mothername = str(input("Ingrese el nombre de la madre: "))
         print("Introduzca una lista con el nombre de los hijos, o presione ENTER para finalizar")
         while True:
-            child = str(input(">> "))
+            child = str(input(">> ")) 
             if child == "":
                 break
             self.children_list.append(child)
