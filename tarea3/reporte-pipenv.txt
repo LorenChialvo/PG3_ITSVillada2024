@@ -1,0 +1,3 @@
+Profe, yo tengo un problema en el que el comando pipenv shell no me crea el virtual enviroment en la carpeta deseada.
+Ya intente haciendo cd en la carpeta deseada e incluso agregar pipenv shell --where /home/loren.... y no funciona, cree
+una carpeta designada para eso especificamente para tener el virtual enviroment y no funciona, entonces simplemente harelo que me diga en una carpeta media rara.
