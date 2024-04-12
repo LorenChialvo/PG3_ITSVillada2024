@@ -1,3 +1,14 @@
-Profe, yo tengo un problema en el que el comando pipenv shell no me crea el virtual enviroment en la carpeta deseada.
-Ya intente haciendo cd en la carpeta deseada e incluso agregar pipenv shell --where /home/loren.... y no funciona, cree
-una carpeta designada para eso especificamente para tener el virtual enviroment y no funciona, entonces simplemente harelo que me diga en una carpeta media rara.
+JAJAJAJA ya pude profe no dije nada, aca esta lo que programe
+loren@DESKTOP-B8PJPPK:~$ pip freeze
+
+    [TODAS MIS LIBRERIAS NORMALES]
+
+loren@DESKTOP-B8PJPPK:~$ cd virtualmachine
+loren@DESKTOP-B8PJPPK:~/virtualmachine$ source wawa/bin/activate
+(wawa) loren@DESKTOP-B8PJPPK:~/virtualmachine$ pip freeze
+(wawa) loren@DESKTOP-B8PJPPK:~/virtualmachine$ cd
+(wawa) loren@DESKTOP-B8PJPPK:~$ deactivate
+
+todo esto funciona, lo instale a partir de lo siguiente
+
+virtualenv -p python3.10 wawa
