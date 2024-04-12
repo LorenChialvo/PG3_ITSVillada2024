@@ -1,16 +1,17 @@
 def cargasum():
+    total_sum = 0
+    print("Para frenar el programa, ingrese un caracter que no sea un numerico")
     try:
         while True:
-            number1 = input(int("Ingrese el primer numero"))
-            number2 = input(int"Ingrese el siguiente numero")
-            result = number1 + number2
-            print("Su suma es ", result)
+            number = int(input("Ingrese un numero: "))
+            total_sum += number
+            print("Su suma acumulada es ", total_sum)
     except ValueError:
-        print("Error! Deben ser numeros enteros")
+        print("Error! Debe ingresar un numero entero")
     finally:
         seguir = input("¿Quieres seguir sumando valores? (s/n): ")
         if seguir.lower() != 's':
-            exit
+            exit()
         elif seguir.lower() == "s":
             pass
 
